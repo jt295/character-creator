@@ -6,3 +6,21 @@
   text-align: center;
 }
 
+.footer a {
+  color: white;
+}
+
+.footer a:visited {
+  color: white;
+}
+
+.footer div {
+  background-color: hsl(195deg, 20%, 86%);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 40svh;
+  width: 100%;
+  z-index: -1;
+}

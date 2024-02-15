@@ -1,2 +1,12 @@
 .buttonRow {
+  white-space: nowrap;
+  overflow-x: auto;
+  max-width: 300px;
+  margin-top: 20px;
+}
+
+@media (min-width: 780px) {
+  .buttonRow {
+    max-width: unset;
+  }
 }
